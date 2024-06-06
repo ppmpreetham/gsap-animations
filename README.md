@@ -7,7 +7,7 @@ Makes the center element fall down first, then the rest of the elements fall dow
 Works with a Stagger of elements
 
 
-<video controls src="src\videos\center_fall_down.mp4" title="Title"></video>
+<video controls src="src\videos\center_fall_down.mp4" title="Center Fall down"></video>
 
 ### Code
 ```javascript
@@ -30,7 +30,7 @@ Makes the center element float up first, then the rest of the elements float too
 Works with a Stagger of elements
 Could be implemented when selection
 
-<video controls src="src\videos\center_fall_down.mp4" title="Title"></video>
+<video controls src="src\videos\center_float.mp4" title="Center Float"></video>
 
 ### Code
 ```javascript
