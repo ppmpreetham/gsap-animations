@@ -7,7 +7,7 @@ Makes the center element fall down first, then the rest of the elements fall dow
 Works with a Stagger of elements
 
 
-<video controls src="src\videos\center_fall_down.mp4" title="Center Fall down"></video>
+![Center Fall down](src/videos/center_fall_down.gif)
 
 ### Code
 ```javascript
@@ -17,7 +17,7 @@ gsap.to(".stagger-box", {
     stagger:0.5,
     ease:"bounce.out",
     stagger: {
-      ease: "back.out",
+        ease: "back.out",
       amount: 1,
       from: "center",
     }
@@ -30,7 +30,7 @@ Makes the center element float up first, then the rest of the elements float too
 Works with a Stagger of elements
 Could be implemented when selection
 
-<video controls src="src\videos\center_float.mp4" title="Center Float"></video>
+![Center Fall down](src/videos/center_float.gif)
 
 ### Code
 ```javascript
@@ -46,5 +46,5 @@ gsap.to(".stagger-box", {
       amount: 1,
       from: "center",
     }
-})
+});
 ```
